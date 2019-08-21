@@ -10,6 +10,6 @@ def my_collect(array)
   collect
 end
 
-my_collect([languages]) { |language|
+my_collect({languages}) { |language|
   language.upcase
 }
