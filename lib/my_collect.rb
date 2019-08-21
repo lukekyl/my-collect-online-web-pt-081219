@@ -9,7 +9,7 @@ def my_collect(array)
   end
   collect
 end
-
+languages = ['ruby', 'javascript', 'python', 'objective-c']
 my_collect(languages) do |language|
   language.upcase
 end
